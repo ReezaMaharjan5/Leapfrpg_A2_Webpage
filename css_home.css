@@ -1,0 +1,208 @@
+body{
+    font-family: "Merriweather", Helvetica, sans-serif;
+    font-size: 18;
+}
+.heade{
+    background-color: rgb(240, 235, 244);
+    padding: 3%;
+    top:0;
+    margin: 0;
+    margin-bottom: 200px;
+    width: 100%;
+    position: fixed;
+}
+h1{
+    color: purple;
+    font-size: 48;
+}
+
+h2{
+    color: purple;
+    font-size: 32;
+}
+
+h3{
+    color: purple;
+    font-size: 20;
+}
+
+header{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color:blueviolet;
+}
+
+.middile.ul{
+    text-align: left;
+}
+
+ul{
+    list-style-type: none;  
+    justify-self: center;
+}
+.rdetial{
+    overflow: auto;
+    padding: 20px;
+    border: 1px solid balck;
+
+}
+img{
+    float: left;
+    left: 0px;
+    margin-right: 10px;
+    margin-left: 60px;
+    width: 50%; 
+    height: 500px;
+}
+
+.img1{
+    margin-right: 30px;
+    margin-left: 10px;
+    width: 50%; 
+}
+
+table, th, td {
+    border: 1px solid;
+    margin: 20px;
+  }
+
+label{
+    text-align: left;
+}
+
+.clearfix {
+    overflow: auto;
+  }
+
+#explore, #bird, #selfi, #lofi, #namobuddha{
+    /* background-color: rgb(250, 250, 243); */
+    background-color: rgb(240, 235, 244);
+
+    padding: 20px;
+}
+
+.righttxt{
+    text-align: justify;
+    margin:0 70px 50px;
+    padding: 40px;
+    float: right;
+    width: 28%;
+    /* background-color: rgb(240, 194, 194);  */
+    /* background-color: rgb(240, 194, 194); */
+    /* background-color: #F8E5D7;  */
+    background-color: #e2a579;
+    
+    box-shadow: 0 0 0.15em 0.15em rgb(157, 110, 110);
+}
+    /* box-shadow: 0.2em 0.2em rgb(234, 226, 226) */
+    /* background-color: #E0C0A9; */
+
+.cont{
+    text-align: justify;
+    margin: 12% 35% 4% 35%;
+    padding:40px 0 40px 180px;
+    width: 28%;
+    box-shadow: 0 0 0.3em 0.3em rgb(157, 110, 110);
+    background-color: rgb(240, 235, 244);
+    /* background-color: #e2a579;
+    box-shadow: 0.3em 0.3em rgb(157, 110, 110); */
+    width: 900;
+    /* text-decoration: underline; */
+}
+table{
+content: center;
+}
+
+.righttxt a{
+    color: white;
+}
+
+#form{
+    text-align: center;
+    margin:2% auto;
+    padding: 40px;
+    width: 28%;
+}
+
+birdtb{
+    margin-left: 50px;
+}
+
+.subform{
+    text-align: center;
+    box-shadow: 0 0 0.3em 0.3em rgb(157, 110, 110);
+    background-color: rgb(240, 235, 244);
+    padding: 50px 20px 20px 20px;
+}
+
+/* .subform h2{
+    text-align: center;
+}
+
+
+.formf {
+    padding-bottom: 0;
+  } */
+  
+  
+input[type="name"], input[type="tel"], input[type="email"] {
+    width: 50%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    line-height: 20px;
+  }
+  
+button[type="submit"] {
+    width: 30%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+button[type="submit"]:hover {
+    background-color: purple;
+  }
+
+.middle{
+    color: purple;
+    text-align: center;
+}
+.middile.ul{
+    text-align: center;
+}
+p.middle{
+    color:#ae7c4a;
+}
+#visit{
+    width: 60%;
+    margin: 0 20% 5% 20%;
+    text-align: justify;
+}
+input, button{
+    border: none;
+}
+button{
+    background-color: purple;
+    padding: 8px;
+    color:white;
+}
+.middle.button{
+    color:white;
+
+}
+label{
+    text-align: left;
+}
+footer{
+ padding: 2%;
+ font-size: 15px;
+}
